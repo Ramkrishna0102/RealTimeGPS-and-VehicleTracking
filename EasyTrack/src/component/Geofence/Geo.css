@@ -1,0 +1,93 @@
+/* General Page Styling */
+.geofence-info-page,
+.geofence-events-page {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #343a40;
+}
+
+/* Titles */
+.geofence-info-page h1,
+.geofence-events-page h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  color: #007bff;
+}
+
+/* Paragraphs */
+.geofence-info-page p,
+.geofence-events-page p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Sub Titles */
+.geofence-info-page h2,
+.geofence-events-page h2 {
+  font-size: 1.8rem;
+  color: #495057;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #007bff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* List Styling */
+.geofence-info-page ul,
+.geofence-events-page ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.geofence-info-page li,
+.geofence-events-page li {
+  background-color: #ffffff;
+  margin: 10px 0;
+  padding: 12px 20px;
+  border-left: 5px solid #007bff;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.geofence-info-page li:hover,
+.geofence-events-page li:hover {
+  background-color: #d4edda;
+  border-left: 5px solid #28a745;
+  cursor: pointer;
+  transform: translateX(8px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .geofence-info-page,
+  .geofence-events-page {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .geofence-info-page h1,
+  .geofence-events-page h1 {
+    font-size: 2rem;
+  }
+
+  .geofence-info-page p,
+  .geofence-events-page p {
+    font-size: 1rem;
+  }
+
+  .geofence-info-page h2,
+  .geofence-events-page h2 {
+    font-size: 1.5rem;
+  }
+}

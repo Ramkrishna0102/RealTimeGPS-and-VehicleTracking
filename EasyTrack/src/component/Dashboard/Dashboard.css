@@ -1,0 +1,66 @@
+/* Dashboard Container */
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Tile Styles */
+  .tile {
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .tile .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .tile .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .tile .details div {
+    font-size: 1rem;
+  }
+  
+  /* Tile Hover Effect */
+  .tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Tile Colors */
+  .tile.blue {
+    background-color: #3498db;
+  }
+  
+  .tile.red {
+    background-color: #e74c3c;
+  }
+  
+  .tile.orange {
+    background-color: #f39c12;
+  }
+  
+  .tile.gray {
+    background-color: #95a5a6;
+  }
+  
+  .tile.green {
+    background-color: #27ae60;
+  }
+  
+  .tile.purple {
+    background-color: #8e44ad;
+  }

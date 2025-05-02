@@ -1,0 +1,84 @@
+/* AddBooking.css */
+
+.add-booking-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .add-booking-title {
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .add-booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-input,
+  .form-textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s;
+  }
+  
+  .form-input:focus,
+  .form-textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  textarea.form-textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  .submit-btn {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-btn:focus {
+    outline: none;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .add-booking-container {
+      padding: 20px;
+    }
+  
+    .add-booking-title {
+      font-size: 24px;
+    }
+  
+    .form-input,
+    .form-textarea {
+      font-size: 14px;
+    }
+  
+    .submit-btn {
+      font-size: 14px;
+    }
+  }
+  

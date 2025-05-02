@@ -1,0 +1,8 @@
+
+title: My Jekyll Site
+description: A description of your site
+baseurl: "Real-Time-GPS-Tracking-Application" # or "/repository-name" if using a project page
+url: "https://Ramkrishna0102.github.io" # Replace with your GitHub Pages URL
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-feed
